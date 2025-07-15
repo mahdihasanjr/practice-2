@@ -428,3 +428,46 @@ section{
     border-radius: 0 40px 40px 0;
    
  }
+
+ /* footer code start hare */
+
+ footer{
+    background-color: #070211;
+ }
+ .Fcontainer{
+    display: flex;
+    flex-direction: column;
+    color:#FFFFFF;
+    padding:96px 112px;
+ }
+ .Fcolumn-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19.2px;
+    font-weight:500;
+    font-family: "inter", sans serif;
+    line-height: 32px;
+    
+ }
+
+  .Fcolumn-2{
+     margin-right: 150px;
+  }
+ .Ficon{
+    margin: 78.4px 0;
+    display: flex;
+    justify-content: center;
+    gap:19.2px;
+ }
+ .Ficon img{
+    width: 51.2px;
+    height: 52px;
+ }
+
+ .copyright{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"inter", sans serif;
+ }
