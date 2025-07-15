@@ -35,7 +35,7 @@ section{
     width:505.6px;
     /* height: 196.8px; */
     font-family: "Merriweather", serif;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -131,12 +131,15 @@ section{
     opacity: 0.8;
     margin-bottom: 32px;
 }
-
+.welcome a{
+    text-decoration: none;
+}
 .welcome h5{
     font-size: 16px;
     font-weight: 700;
     font-family: "Inter", sans-serif;
     color:#FFFFFF;
+    
 }
 
 .welcome figure img{
@@ -449,8 +452,11 @@ section{
     line-height: 32px;
     
  }
-
+.Fcolumn-1{
+    text-align: left;
+}
   .Fcolumn-2{
+    text-align: right;
      margin-right: 150px;
   }
  .Ficon{
